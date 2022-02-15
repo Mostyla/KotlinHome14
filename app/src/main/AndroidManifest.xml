@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Home14">
         <activity
+            android:name=".CalculateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConundrumsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MagicActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
